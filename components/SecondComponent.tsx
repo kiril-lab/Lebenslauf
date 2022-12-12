@@ -22,7 +22,7 @@ function SecondComponent() {
       </div>
       <div
         id="ausbildung"
-        className="flex pt-[4rem] pb-[4rem] pl-[5%] pr-[5%] sm-s:pl-[10%] sm-s:pr-[10%] lg:pl-[20%] lg:pr-[20%]"
+        className="flex pt-[4rem] pb-[4rem] pl-[5%] pr-[5%] sm-s:pl-[10%] lg:pl-[20%] lg:pr-[20%]"
       >
         <div className="flex-col lg:pr-[10rem]">
           <div className="italic text-[32px] w-[50%] text-[#586cdc] font-['amatic_scregular']">
@@ -133,7 +133,7 @@ function SecondComponent() {
         </div>
         <div>Chess</div>
         <div>Fussball</div>
-        <div className="pb-[3rem]">Laufen</div>
+        <div className="lg:pb-[3rem]">Laufen</div>
       </div>
       <div className="flex justify-center items-center text-start  lg:justify-start flex-col lg:flex-row bg-[#eef0fc] pt-[4rem] w-[100%] lg:pl-[20%]">
         <div className="italic text-[32px] font-['amatic_scregular'] lg:p-10">
