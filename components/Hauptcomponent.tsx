@@ -12,7 +12,7 @@ function Hauptcomponent() {
           </div>
         </div>
         <div className="absolute lg:relative flex flex-col justify-center text-center lg:text-start lg:w-[50%]">
-          <div className="xsm:text-[18px] sm-xs:text-[24px] mb-[-1rem] tracking-[0.35em] p-0">
+          <div className="xsm:text-[18px] sm-xs:text-[24px] mb-[-0.5rem] lg:mb-[-1rem] tracking-[0.35em] p-0">
             Hallo, mein Name ist
           </div>
           <div className="xsm:text-[42px] sm-xs:text-[52px] lg:text-[62px] xl-l:text-[88px] font-bold xsm:mb-[2rem] lg:mb-[-1rem] ml-[-0.15rem] p-0 font-['amatic_scregular']">

@@ -90,7 +90,7 @@ function SecondComponent() {
           </div>
           <div className="flex">
             <div className="flex-col pr-[5rem] sm-s:pr-[7rem] lg:pr-[10rem]">
-              <div>HTML & CSS/SCSS/Tailwind CSS</div>
+              <div>HTML & CSS/SCSS/Tailwind</div>
               <div>JavaScript/TypeScript</div>
               <div>ReactJS/NextJS</div>
               <div>Git/GitLab/GitHub</div>
@@ -136,11 +136,11 @@ function SecondComponent() {
         <div className="pb-[3rem]">Laufen</div>
       </div>
       <div className="flex justify-center items-center text-start  lg:justify-start flex-col lg:flex-row bg-[#eef0fc] pt-[4rem] w-[100%] lg:pl-[20%]">
-        <div className="italic text-[32px] font-['amatic_scregular'] p-10">
+        <div className="italic text-[32px] font-['amatic_scregular'] lg:p-10">
           <p>Ich freue mich auf</p>
           <p> Nachrichten.</p>
         </div>
-        <div className="flex  text-[270%] p-10">
+        <div className="flex  text-[270%] lg:p-10">
           <div className="p-5">
             <Link href="tel:+4917661168062">
               <TbPhoneCall />
