@@ -7,17 +7,24 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div>
+    <div className="font-['montserrat_alternatesregular'] text-[#1c2349]">
       <Head>
         <title>Kiril Shterjov</title>
         <meta name="description" content="Lebenslauf" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Layout>
+      <div className="hidden lg:block">
+        <Layout>
+          <Header />
+          <Hauptcomponent />
+          <SecondComponent />
+        </Layout>
+      </div>
+      <div className="block lg:hidden">
         <Header />
-        <Hauptcomponent/>
-        <SecondComponent/>
-      </Layout>
+        <Hauptcomponent />
+        <SecondComponent />
+      </div>
     </div>
   );
 }

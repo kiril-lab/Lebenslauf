@@ -5,7 +5,7 @@ interface Props {
 }
 function Layout({ children }: Props) {
   return (
-    <div className="h-[100%] w-[100%] bg-[#00000080]">
+    <div className="w-auto bg-[#00000080]">
       {children}
       <div className="fixed top-0 left-0 right-0 bottom-0 z-[-1]">
         <Image
