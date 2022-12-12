@@ -89,7 +89,7 @@ function SecondComponent() {
             Welche Kenntnisse ich mitbringe
           </div>
           <div className="flex">
-            <div className="flex-col pr-[5rem] sm-s:pr-[7rem] lg:pr-[10rem]">
+            <div className="flex-col xsm:pr-[2rem] sm-s:pr-[7rem] lg:pr-[10rem]">
               <div>HTML & CSS/SCSS/Tailwind</div>
               <div>JavaScript/TypeScript</div>
               <div>ReactJS/NextJS</div>
