@@ -24,7 +24,7 @@ function Hauptcomponent() {
         </div>
       </div>
       <div className="flex lg:w-[22.5%] flex-col justify-center items-center text-center  bg-[#586cdc] text-[white]">
-        <div className="p-5">
+        <div className="p-10">
           <Image
             src={bild}
             width={200}
@@ -41,7 +41,7 @@ function Hauptcomponent() {
         <div className="">kiril_sh@hotmail.com</div>
         <div className=" mb-[5rem]">+49 (0) 176 61168062 </div>
         <Link href="/files/Lebenslauf.pdf">
-          <div className="bg-white text-[#586cdc] p-5 mb-[5rem]">
+          <div className="bg-white text-[#586cdc] p-5 mb-[3rem]">
             CV Herunterladen
           </div>
         </Link>
