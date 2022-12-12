@@ -59,7 +59,7 @@ function SecondComponent() {
             <div className="pb-[3rem]">Praktikant (Webentwicklung)</div>
             <div>2018-2019</div>
             <div>Henkel & Co. Sektkellerei</div>
-            <div className="pb-[3rem]">Werkstudent (Umwelt & Sicherheit)</div>
+            <div className="">Werkstudent (Umwelt & Sicherheit)</div>
           </div>
         </div>
         <div className="hidden lg:block lg:flex-col">
@@ -116,7 +116,7 @@ function SecondComponent() {
               <div>100%</div>
               <div>80%</div>
               <div>50%</div>
-              <div className="pb-[3rem]">50%</div>
+              <div className="">50%</div>
             </div>
           </div>
         </div>
