@@ -135,7 +135,7 @@ function SecondComponent() {
         <div>Fussball</div>
         <div className="lg:pb-[3rem]">Laufen</div>
       </div>
-      <div className="flex justify-center items-center text-start  lg:justify-start flex-col lg:flex-row bg-[#eef0fc] pt-[4rem] w-[100%] lg:pl-[20%]">
+      <div className="flex justify-center items-center text-start  lg:justify-start flex-col lg:flex-row bg-[#eef0fc] pt-[2rem] w-[100%] lg:pl-[20%]">
         <div className="italic text-[32px] font-['amatic_scregular'] lg:p-10">
           <p>Ich freue mich auf</p>
           <p> Nachrichten.</p>
