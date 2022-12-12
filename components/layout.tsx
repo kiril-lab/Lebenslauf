@@ -7,7 +7,7 @@ function Layout({ children }: Props) {
   return (
     <div className="w-auto bg-[#00000080]">
       {children}
-      <div className="fixed top-0 left-0 right-0 bottom-0 z-[-1]">
+      <div className="hidden lg:block fixed top-0 left-0 right-0 bottom-0 z-[-1]">
         <Image
           src={background}
           alt="background"

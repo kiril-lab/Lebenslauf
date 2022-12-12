@@ -13,18 +13,11 @@ export default function Home() {
         <meta name="description" content="Lebenslauf" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="hidden lg:block">
-        <Layout>
-          <Header />
-          <Hauptcomponent />
-          <SecondComponent />
-        </Layout>
-      </div>
-      <div className="block lg:hidden">
+      <Layout>
         <Header />
         <Hauptcomponent />
         <SecondComponent />
-      </div>
+      </Layout>
     </div>
   );
 }

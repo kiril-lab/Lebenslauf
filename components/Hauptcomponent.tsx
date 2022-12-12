@@ -6,7 +6,7 @@ function Hauptcomponent() {
   return (
     <div className="flex xsm:flex-col lg:flex-row lg:h-[100%]">
       <div className="flex flex-col justify-center items-center text-center w-[100%] lg:w-[77.5%] text-white">
-        <div className="lg:hidden w-auto bg-[#00000080]">
+        <div className="lg:hidden w-auto">
           <div className="relative z-[-1]">
             <Image src={background} alt="background" />
           </div>

@@ -4,6 +4,7 @@ import { useState } from "react";
 function Header() {
   const [isOpen, setOpen] = useState(false);
   const closedMenu = () => setOpen(!isOpen);
+
   return (
     <>
       <div className="hidden lg:flex  sticky   text-[18px] justify-center items-center text-center  bg-[#586cdc] font-bold font-['amatic_scregular'] italic text-white">
@@ -37,31 +38,31 @@ function Header() {
             <div className="absolute flex w-[100%] justify-center items-center text-center text-[#1c2349] bg-[#eef0fc] left-0 z-[1] text-[24px] p-5">
               <ul className="">
                 <li className="p-2">
-                  <Link href="/#ueberMich" legacyBehavior>
-                    <a className="" onClick={closedMenu}>
+                  <Link href="/#ueberMich">
+                    <div className="" onClick={closedMenu}>
                       Über Mich
-                    </a>
+                    </div>
                   </Link>
                 </li>
                 <li className="p-2">
-                  <Link href="/#ausbildung" legacyBehavior>
-                    <a className="" onClick={closedMenu}>
+                  <Link href="/#ausbildung">
+                    <div className="" onClick={closedMenu}>
                       Ausbildung & Berufserfahrung
-                    </a>
+                    </div>
                   </Link>
                 </li>
                 <li className="p-2">
-                  <Link href="/#faeihgkeiten" legacyBehavior>
-                    <a className="" onClick={closedMenu}>
+                  <Link href="/#faeihgkeiten">
+                    <div className="" onClick={closedMenu}>
                       Fähigkeiten & Sprachen
-                    </a>
+                    </div>
                   </Link>
                 </li>
                 <li className="p-2">
-                  <Link href="/#interessen" legacyBehavior>
-                    <a className="" onClick={closedMenu}>
+                  <Link href="/#interessen">
+                    <div className="" onClick={closedMenu}>
                       Interessen
-                    </a>
+                    </div>
                   </Link>
                 </li>
               </ul>
