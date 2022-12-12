@@ -59,9 +59,9 @@ function Header() {
           <Hamburger toggled={isOpen} toggle={setOpen} color="#FFFFFF" />
 
           {isOpen && (
-            <div className="absolute flex w-[100%] justify-center items-center text-center text-[#1c2349] bg-[#eef0fc] left-0 z-[1] text-[24px] p-5">
+            <div className="absolute flex w-[100%] h-[100%] justify-center items-start text-start  bg-[#586cdc] opacity-[0.95] left-0 z-[1] text-[24px] pt-[8rem]">
               <ul className="">
-                <li className="p-2">
+                <li className="p-5">
                   <Link
                     to="ueberMich"
                     spy={true}
@@ -72,7 +72,7 @@ function Header() {
                     <div onClick={closedMenu}>Über Mich</div>
                   </Link>
                 </li>
-                <li className="p-2">
+                <li className="p-5">
                   <Link
                     to="ausbildung"
                     spy={true}
@@ -83,7 +83,7 @@ function Header() {
                     <div onClick={closedMenu}>Ausbildung & Berufserfahrung</div>
                   </Link>
                 </li>
-                <li className="p-2">
+                <li className="p-5">
                   <Link
                     to="faeihgkeiten"
                     spy={true}
@@ -94,7 +94,7 @@ function Header() {
                     <div onClick={closedMenu}>Fähigkeiten & Sprachen</div>
                   </Link>
                 </li>
-                <li className="p-2">
+                <li className="p-5">
                   <Link
                     to="interessen"
                     spy={true}
