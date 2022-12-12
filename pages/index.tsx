@@ -7,7 +7,7 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div className="font-['montserrat_alternatesregular'] text-[#1c2349]">
+    <div id="home" className="font-['montserrat_alternatesregular'] text-[#1c2349]">
       <Head>
         <title>Kiril Shterjov</title>
         <meta name="description" content="Lebenslauf" />

@@ -1,5 +1,6 @@
-import Link from "next/link";
+import { Link } from "react-scroll";
 import { TbPhoneCall, TbMail, TbBrandWhatsapp } from "react-icons/tb";
+import { CiCircleChevUp } from "react-icons/ci";
 function SecondComponent() {
   return (
     <div className="flex flex-col justify-start text-left items-start bg-white ">
@@ -135,27 +136,32 @@ function SecondComponent() {
         <div>Fussball</div>
         <div className="lg:pb-[3rem]">Laufen</div>
       </div>
-      <div className="flex justify-center items-center text-start  lg:justify-start flex-col lg:flex-row bg-[#eef0fc] pt-[2rem] w-[100%] lg:pl-[20%]">
-        <div className="italic text-[32px] font-['amatic_scregular'] lg:p-10">
+      <div className="flex justify-center items-center text-start  lg:justify-start flex-col md:flex-row bg-[#eef0fc] pt-[2rem] w-[100%] lg:pl-[20%]">
+        <div className="italic text-[32px] font-['amatic_scregular'] md:p-10">
           <p>Ich freue mich auf</p>
           <p> Nachrichten.</p>
         </div>
         <div className="flex  text-[270%] lg:p-10">
-          <div className="p-5">
-            <Link href="tel:+4917661168062">
+          <div className="p-2 lg:p-5">
+            <a href="tel:+4917661168062">
               <TbPhoneCall />
-            </Link>
+            </a>
           </div>
-          <div className="p-5">
-            <Link href="mailto:kiril_sh@hotmail.com">
+          <div className="p-2 lg:p-5">
+            <a href="mailto:kiril_sh@hotmail.com">
               <TbMail />
-            </Link>
+            </a>
           </div>
-          <div className="p-5">
-            <Link href="https://wa.me/+4917661168062">
+          <div className="p-2 lg:p-5">
+            <a href="https://wa.me/+4917661168062">
               <TbBrandWhatsapp />
-            </Link>
+            </a>
           </div>
+          <button className="pl-2 pt-2 pb-2 lg:p-5">
+            <Link to="home" spy={true} smooth={true} offset={0} duration={500}>
+              <CiCircleChevUp />
+            </Link>
+          </button>
         </div>
       </div>
     </div>
