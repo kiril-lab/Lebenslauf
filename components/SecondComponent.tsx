@@ -15,10 +15,12 @@ function SecondComponent() {
           Mein Werdegang
         </div>
         <p className="text-[21px] pb-[4rem] ">
-          Junior Developer mit grundlegende Erfahrung im Bereich Webentwicklung
-          sucht eine Arbeitsstelle. Als motivierte Teamplayer mit guten
-          Kommunikationsfähigkeiten, freue ich mich auf Herausforderungen. Eine
-          Beschreibung meiner Fähigkeiten finden Sie hier auf meiner Website.
+          Junior Web Developer mit grundlegende Erfahrung im Bereich Webentwicklung
+          und erfolgreich abgeschlossene Studium im Bereich Angewandte
+          Informatik sucht eine Arbeitsstelle. Als motivierte Teamplayer mit
+          guten Kommunikationsfähigkeiten, freue ich mich auf Herausforderungen.
+          Eine Beschreibung meiner Fähigkeiten finden Sie hier auf meiner
+          Website.
         </p>
       </div>
       <div
