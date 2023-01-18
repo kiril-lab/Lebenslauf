@@ -67,7 +67,7 @@ function SecondComponent() {
             <div>Projekterfahrung während des Studiums</div>
             <div>Erstellung dynamische Webseite für Dirigent</div>
             <div className="pb-[3rem]">
-              <p>Von UML-Diagram bis zur Dokumentation</p>
+              <p>Von UML-Diagramm bis zur Dokumentation</p>
               <p>Framework: Ruby on Rails</p>
               <p>Programmiersprachen: JavaScript, Java, HTML, CSS</p>
             </div>
@@ -87,7 +87,7 @@ function SecondComponent() {
           <div>Projekterfahrung während des Studiums</div>
           <div>Erstellung dynamische Webseite für Dirigent</div>
           <div className="pb-[3rem]">
-            <p>Von UML-Diagram bis zur Dokumentation</p>
+            <p>Von UML-Diagramm bis zur Dokumentation</p>
             <p>Framework: Ruby on Rails</p>
             <p>Programmiersprachen: JavaScript, Java, HTML, CSS</p>
           </div>
