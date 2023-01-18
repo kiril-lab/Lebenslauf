@@ -15,12 +15,12 @@ function SecondComponent() {
           Mein Werdegang
         </div>
         <p className="text-[21px] pb-[4rem] ">
-          Junior Web Developer mit grundlegende Erfahrung im Bereich Webentwicklung
-          und erfolgreich abgeschlossene Studium im Bereich Angewandte
-          Informatik sucht eine Arbeitsstelle. Als motivierte Teamplayer mit
-          guten Kommunikationsfähigkeiten, freue ich mich auf Herausforderungen.
-          Eine Beschreibung meiner Fähigkeiten finden Sie hier auf meiner
-          Website.
+          Junior Web Developer mit grundlegende Erfahrung im Bereich
+          Webentwicklung und erfolgreich abgeschlossene Studium im Bereich
+          Angewandte Informatik sucht eine Arbeitsstelle. Als motivierte
+          Teamplayer mit guten Kommunikationsfähigkeiten, freue ich mich auf
+          Herausforderungen. Eine Beschreibung meiner Fähigkeiten finden Sie
+          hier auf meiner Website.
         </p>
       </div>
       <div
@@ -62,7 +62,15 @@ function SecondComponent() {
             <div className="pb-[3rem]">Praktikant (Webentwicklung)</div>
             <div>2018-2019</div>
             <div>Henkel & Co. Sektkellerei</div>
-            <div className="">Werkstudent (Umwelt & Sicherheit)</div>
+            <div className="pb-[3rem]">Werkstudent (Umwelt & Sicherheit)</div>
+            <div>2021-2022</div>
+            <div>Projekterfahrung während des Studiums</div>
+            <div>Erstellung dynamische Webseite für Dirigent</div>
+            <div className="pb-[3rem]">
+              <p>Von UML-Diagram bis zur Dokumentation</p>
+              <p>Framework: Ruby on Rails</p>
+              <p>Programmiersprachen: JavaScript, Java, HTML, CSS</p>
+            </div>
           </div>
         </div>
         <div className="hidden lg:block lg:flex-col">
@@ -75,6 +83,14 @@ function SecondComponent() {
           <div>März 2022-Dezember 2022</div>
           <div>Daubit Programmierung Service GmbH</div>
           <div className="pb-[3rem]">Praktikant (Webentwicklung)</div>
+          <div>2021-2022</div>
+          <div>Projekterfahrung während des Studiums</div>
+          <div>Erstellung dynamische Webseite für Dirigent</div>
+          <div className="pb-[3rem]">
+            <p>Von UML-Diagram bis zur Dokumentation</p>
+            <p>Framework: Ruby on Rails</p>
+            <p>Programmiersprachen: JavaScript, Java, HTML, CSS</p>
+          </div>
           <div>2018-2019</div>
           <div>Henkel & Co. Sektkellerei</div>
           <div className="pb-[3rem]">Werkstudent (Umwelt & Sicherheit)</div>
@@ -100,6 +116,7 @@ function SecondComponent() {
               <div>Java</div>
               <div>GoLang</div>
               <div>MongoDB</div>
+              <div>Web3</div>
               <div className="pb-[1rem]">Google Cloud Storage</div>
               <hr className="w-[10%]"></hr>
               <div className="pt-[1rem]">Mazedonisch</div>
@@ -113,6 +130,7 @@ function SecondComponent() {
               <div>70%</div>
               <div>80%</div>
               <div>60%</div>
+              <div>40%</div>
               <div>40%</div>
               <div>40%</div>
               <div className="pb-[2rem]">40%</div>
